@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family:'Hanken Grotesk',sans-serif;
+}
+p{
+  @apply text-slate-200
+}
+#bg-div{
+  background-color: #5239F6;
+}
